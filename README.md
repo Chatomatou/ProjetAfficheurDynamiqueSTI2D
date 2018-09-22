@@ -11,3 +11,6 @@ Améliorer la qualité de diffusion des informations à destination des élèves
  
 Nombre maximum d’élèves : 2
  
+# Vidéo du projet 
+
+[![Interface administrateur](http://image.noelshack.com/fichiers/2018/38/7/1537655682-image14.jpg)](https://youtu.be/Dx_0qvph9Iw "Interface administrateur")
