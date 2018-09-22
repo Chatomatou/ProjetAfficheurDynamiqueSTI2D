@@ -12,3 +12,4 @@ Améliorer la qualité de diffusion des informations à destination des élèves
 Nombre maximum d’élèves : 2
 
 - ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `#1589F0`
+<p style='color:red'>This is some red text.</p> 
