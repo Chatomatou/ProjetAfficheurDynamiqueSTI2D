@@ -14,3 +14,4 @@ Nombre maximum d’élèves : 2
 # Vidéo du projet 
 
 [![Interface administrateur](http://image.noelshack.com/fichiers/2018/38/7/1537655682-image14.jpg)](https://youtu.be/Dx_0qvph9Iw "Interface administrateur")
+[![Interface administrateur](http://image.noelshack.com/fichiers/2018/38/7/1537655682-image14.jpg)](https://youtu.be/WFedoXi02L0 "Navigation sur le site web")
