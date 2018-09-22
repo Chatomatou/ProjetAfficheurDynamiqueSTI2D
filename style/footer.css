@@ -1,0 +1,25 @@
+footer
+{
+	clear: both;
+	margin-top: 100px;
+	background-color: #141414;
+	text-align: center;
+	padding: 50px;
+}
+footer img
+{
+	width: 64px;
+	height: 64px;
+}
+footer ol li
+{
+	list-style: none;
+	display: inline-block;
+	margin-top: 15px;
+}
+.social_network h4
+{
+
+ 	font-size: 18px;
+	color: #8e44ad;
+}

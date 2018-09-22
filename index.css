@@ -1,0 +1,143 @@
+*
+{
+	margin: 0;  /* la marge haut bas droite gauche a 0 (pas de marge)*/
+	padding: 0; /* l'espace interieux a 0 */
+}
+body
+{
+	background-color: #EDEDED; /* Mets une couleur de fond */
+}
+.wrapper
+{
+  margin: auto;
+  width: 900px;
+}
+/*******************************************/
+#animation_pictures
+{
+	margin-top: 70px; /* La marge du dessus a 70 px */
+	clear: both; /* clear: right; clear: left; */
+}
+.slide_picture
+{
+	float: left; /* Faire floater les image a gauche */
+}
+img[class="slide_picture"]
+{
+	width: 1480px;
+	height: 600px;
+}
+.slides
+{
+	width: calc(1480px*3);
+	animation: glisses 10s infinite;
+}
+.slider
+{
+	width: 1480px;
+	overflow: hidden;
+	margin: 150px auto;
+}
+@keyframes glisses
+{
+	0%
+	{
+		transform: translateX(0);
+	}
+	10%
+	{
+		transform: translateX(0);
+	}
+	33%
+	{
+		transform: translateX(-1480px);
+	}
+	43%
+	{
+		transform: translateX(-1480px);
+	}
+	66%
+	{
+		transform: translateX(-2960px);
+	}
+	76%
+	{
+		transform: translateX(-2960px);
+	}
+	100%
+	{
+		transform: translateX(0);
+	}
+
+}
+/**************************************************/
+ 
+
+/*************************************************************/
+#login-form
+{
+	z-index: 2;
+	position: absolute;
+	background-color: rgba(51, 51, 51, 0.4);
+	height: 450px;
+	width: 230px;
+	border: solid;
+	border-style: hidden;
+	border-color: #fff;
+	border-radius: 5px;
+	transition: 2s;
+	left: -230px;
+}
+#login-form h2
+{
+	font-family: Ubuntu, arial;
+	font-size: 32px;
+	text-align: center;
+	padding: 10px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+#login-form label
+{
+	display: block;
+	margin: 5px 5px;
+	font-size: 16px;
+	position: relative;
+	color: #FFC312;
+}
+#login-form form input
+{
+	text-align: center;
+	line-height: 18px;
+	margin-left: 15px;
+	width: 200px;
+	padding: 5px;
+}
+#login-form form input[type="submit"]
+{
+	margin-top: 5px;
+}
+#login-form img
+{
+	margin-left: 50px;
+	margin-top: 10px;
+	width: 128px;
+	height: 128px;
+	background-color: #fffee;
+}
+/***************************************************************/
+.form-message
+{
+	transition: all 1s ease;
+	position: absolute;
+	left: 24%;
+	top: -800px;
+	z-index: 1;
+	border: solid;
+	width: 0px; /* 800 px*/
+	height: 600px
+	padding: 10px;
+	border: none;
+	opacity: 0.97;
+	background-color: #2d3436;
+}
