@@ -10,5 +10,5 @@ Résoudre les problèmes liès à affichage "papier" anarchique et améliorer la
 Améliorer la qualité de diffusion des informations à destination des élèves et personnels du lycée en minimisant les consommations d'énergie. 
  
 Nombre maximum d’élèves : 2
-<p>Some Markdown text with <span style="color:blue">some <em>blue</em> text</span>.</p>
-<span style="color:red">some **This is Red Bold.** text</span>
+
+- ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `#1589F0`
